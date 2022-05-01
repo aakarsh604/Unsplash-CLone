@@ -1,0 +1,98 @@
+* {
+  font-family: arial;
+}
+
+#search_box {
+  height: 50px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+#logo {
+  font-size: 37px;
+}
+
+#seaicon {
+  position: relative;
+  left: 30px;
+  color: rgb(105, 105, 105);
+}
+
+#query {
+  width: 900px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  padding: 0px 40px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(236, 236, 236);
+}
+
+.icon {
+  font-size: 23px;
+  color: rgb(115, 115, 115);
+  margin-left: 2px;
+}
+
+.selecttag {
+  height: 32px;
+  width: 135px;
+  background-color: rgb(236, 235, 235);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 0px 10px;
+  color: gray;
+}
+
+#categories {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  padding: 0px 25px;
+  box-sizing: border-box;
+  align-items: center;
+  color: rgb(125, 125, 125);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 10px 0px;
+}
+
+#categories > div {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#categories > div:hover {
+  color: black;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+img {
+  width: 330px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.op {
+    font-size: 17px;
+}

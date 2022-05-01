@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallpapers | Unsplash</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="search_box">
+        <div><i id="logo" class="fa-brands fa-unsplash"></i></div>
+        <div><i id="seaicon" class="fa-solid fa-magnifying-glass"></i><input type="text" id="query" placeholder="Search for high-resolution wallpapers"></div>
+        <div>
+          <select name="" id="sort" class="selecttag">
+            <option class="op" disabled selected hidden >Apply Sort</option>
+            <option class="op" value="latest">Latest</option>
+            <option class="op" value="oldest">Oldest</option>
+            <option class="op" value="popular">Popular</option>
+            <option class="op" value="views">Views</option>
+            <option class="op" value="downloads">Downloads</option>
+          </select>
+        </div>
+        <div>
+          <select name="" id="filter" class="selecttag">
+            <option class="op" disabled selected hidden >Apply Filter</option>
+            <option class="op" value="landscape">Landscape</option>
+            <option class="op" value="portrait">Portrait</option>
+          </select>
+        </div>
+        <div>
+          <i class="fa-solid fa-bell icon"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle-user icon"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-bars icon"></i>
+        </div>
+    </div>
+    <div id="categories"> 
+      <div id="Wallpapers">Wallpapers</div>
+      <div id="Architecture">Architecture</div>
+      <div id="Nature">Nature</div>
+      <div id="Fashion">Fashion</div>
+      <div id="Film">Film</div>
+      <div id="Waterfalls">Waterfalls</div>
+      <div id="Food">Food and Drink</div>
+      <div id="People">People</div>
+      <div id="Interiors">Interiors</div>
+      <div id="Travel">Travel</div>
+      <div id="Animals">Animals</div>
+      <div id="Cars">Cars</div>
+      <div id="Photography">Photography</div>
+      <div id="Technology">Technology</div>
+      <div id="People">People</div>
+      <div id="Mountains">Mountains</div>
+      <div id="City">City</div>
+    </div>
+
+    <!-- Append Data here  -->
+    <div id="container"></div>
+  </body>
+</html>
+<script src="main.js" type="module"></script>
+
+<!-- Unsplash API -->
+<!-- Access Key
+-xAOlKX_G-GIEGgJCi1hGVsuX06gNlirvMWsry7b0k8
+
+Secret Key
+-xAOlKX_G-GIEGgJCi1hGVsuX06gNlirvMWsry7b0k8 -->
